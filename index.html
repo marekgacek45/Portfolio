@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./dist/css/main.min.css">
+    <link href="dist/css/components/hamburger.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,200&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/41fdd41dda.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="nav">
+        <div class="nav__hamburger ">
+            <button class="hamburger hamburger--spring" type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+        </div>
+        <div class="nav__panel">
+            <div class="nav__items">
+                <h2 class="nav__items-header">Jan Kowalski</h2>
+                <a href="#" class="nav__item home">Home</a>
+                <a href="#about" class="nav__item about">About</a>
+                <a href="#projects" class="nav__item projects">Projects</a>
+                <a href="#website" class="nav__item website">My Website</a>
+                <a href="#contact" class="nav__item contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HOME -->
+
+    <section id="home" class="header wrapper section">
+        <img class="header__img" src="./dist/img/img.jpg" alt="">
+        <h1 class="header__header">I am <span class="element"></span></h1>
+        <p class="header__text">Hi, are you looking for a Junior Frontend Developer?</p>
+        <p class="header__text">You've come to the right place!</p>
+        <p class="header__text">Check my works and feel free to contact me</p>
+
+        <div class="header__social">
+            <a href="https://www.linkedin.com" target="_blank"><i
+                    class="fa-brands fa-linkedin header__social-item"></i></a>
+            <a href="https://github.com/" target="_blank"><i
+                    class="fa-brands fa-square-github header__social-item"></i></i></a>
+            <a href="https://codepen.io/" target="_blank"><i class="fa-brands fa-codepen header__social-item"></i></a>
+
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about wrapper section">
+        <div class="heading">
+            <h2 class="heading-header">About <span>Me</span></h2>
+        </div>
+        <div class="about__info">
+            <img class="about__info-img" src="./dist/img/img.jpg" alt="my photo">
+            <div class="about__info-text-container">
+                <h3 class="about__info-heading">My name is Jan</h3>
+                <p class="about__info-text">I'm a developer familiar with JS delving into React</p>
+                <h4 class="about__info-point">Full Name: <span>Jan Kowalski</span></h4>
+                <h4 class="about__info-point">Date of Birth: <span>25 August 1982</span></h4>
+                <h4 class="about__info-point">City: <span>Kraków</span></h4>
+                <h4 class="about__info-point">Language: <span>Polish, English</span></h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects section wrapper">
+        <div class="heading">
+            <h2 class="heading-header">My <span>Projects</span></h2>
+        </div>
+        <div class="projects__container">
+            <div class="projects__item">
+                <h3 class="projects__item-header">React </h3>
+                <i class="fa-brands fa-react projects__item-icon "></i>
+                <a href="https://github.com/" target="_blank">
+                    <button class="button">Check</button></a>
+
+            </div>
+            <div class="projects__item">
+                <h3 class="projects__item-header">JavaScript</h3>
+                <i class="fa-brands fa-js projects__item-icon "></i>
+                <a href="https://github.com/" target="_blank"><button class="button">Check</button></a>
+            </div>
+            <div class="projects__item">
+                <h3 class="projects__item-header">Websites</h3>
+                <i class="fa-brands fa-html5 projects__item-icon "></i>
+                <a href="https://github.com/" target="_blank"><button class="button">Check</button></a>
+            </div>
+            <div class="projects__item">
+                <h3 class="projects__item-header">My Github</h3>
+                <i class="fa-brands fa-square-github projects__item-icon "></i>
+                <a href="https://github.com/" target="_blank">
+                    <button class="button">Check</button></a>
+            </div>
+            <div class="projects__item">
+                <h3 class="projects__item-header">My CodePen</h3>
+                <i class="fa-brands fa-codepen projects__item-icon "></i>
+                <a href="https://codepen.io/" target="_blank">
+                    <button class="button">Check</button></a>
+            </div>
+
+        </div>
+
+        <!-- WEBSITE -->
+    </section>
+    <section id="website" class="website section wrapper">
+        <div class="heading">
+            <h2 class="heading-header">My <span>Website</span></h2>
+        </div>
+        <div class="website__container">
+            <h3 class="website__header">In Progress <span class="element2"></span></h3>
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact section wrapper">
+        <div class="heading">
+            <h2 class="heading-header">Contact <span>Me</span></h2>
+        </div>
+        <div class="contact__container">
+
+            <a href="tel:123-456-789">
+                <div class="contact__item">
+                    <i class="fa-solid fa-phone contact__item-icon"></i>
+                    <h3 class="contact__item-header">Phone</h3>
+                    <p class="contact__item-text">123-456-789</p>
+                </div>
+            </a>
+            <a href="https://www.linkedin.com//" target="_blank">
+                <div class="contact__item">
+                    <i class="fa-brands fa-linkedin contact__item-icon"></i>
+                    <h3 class="contact__item-header">Linkedin</h3>
+                    <p class="contact__item-text">Contact</p>
+                </div>
+            </a>
+            <a href="#" target="_blank">
+                <div class="contact__item">
+                    <i class="fa-brands fa-facebook-messenger contact__item-icon"></i>
+                    <h3 class="contact__item-header">Messenger</h3>
+                    <p class="contact__item-text">Sent Message</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="contact__item">
+                    <i class="fa-solid fa-envelope contact__item-icon"></i>
+                    <h3 class="contact__item-header">Email</h3>
+                    <p class="contact__item-text">kowalski@mail.pl</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <section id="footer" class="footer"></section>
+    <footer>
+        <div class="footer__author">
+            <p class="footer__author-text">design by <a href="https://gorskastrona.pl"> Górska Strona</a></p>
+    </footer>
+
+    <script src="./dist/js/main.min.js"></script>
+
+</body>
+
+</html>
