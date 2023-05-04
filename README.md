@@ -21,7 +21,7 @@
 * [Live](#live)
 
 ## General Info
-My personal portfolio.
+My project of portfolio design.
 
 ## Technologies
 Project is created with:
